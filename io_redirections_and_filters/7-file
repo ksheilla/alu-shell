@@ -1,7 +1,3 @@
 #!/bin/bash
-
-# Define the filename with special characters
-filename='*\'"Best School"\'\\*$\?\*\*\*\*\*:)'
-
-# Create the file and write "Best School" into it
+filename='*\\\'"Best School"\'\\*$\?\*\*\*\*\*:)'
 echo "Best School" > "$filename"
